@@ -12,20 +12,20 @@ ________________________________________________________________*/
 
 // Your code here
 
-
-
-
+document.getElementById("box-two").style.opacity = "1";
+document.getElementById("box-nine").style.opacity = "1";
 
 /*________________________________________________________________
 Part 2.) The Hidden Message
 
-Lastly, we've added an ID of "hidden-message" to an empty paragrah 
-element. Use JavaScript to inject the paragragh's inner HTML with a 
+Lastly, we've added an ID of "hidden-message" to an empty paragrah
+element. Use JavaScript to inject the paragragh's inner HTML with a
 string containing whatever text you want.
 ________________________________________________________________*/
 
 // Your code here 
 
+document.getElementById("hidden-message").innerHTML = "whatever text you want";
 
 
 
