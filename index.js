@@ -12,6 +12,7 @@ ________________________________________________________________*/
 
 // Your code here
 
+
 document.querySelector("#box-two").style.opacity = "1";
 document.querySelector("#box-nine").style.opacity = "1";
 
@@ -28,6 +29,8 @@ string containing whatever text you want.
 ________________________________________________________________*/
 
 // Your code here 
+
+
 document.querySelector("#hidden-message").innerHTML = "this is my string";
 
 
