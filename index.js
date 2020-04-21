@@ -10,7 +10,8 @@ selector and the style property, write pure JavaScript to reveal
 who's behind the remaining boxes. 
 ________________________________________________________________*/
 
-// Your code here
+document.querySelector('#box-two').style.opacity = "1";
+document.querySelector('#box-nine').style.opacity = "1";
 
 
 
@@ -24,7 +25,7 @@ element. Use JavaScript to inject the paragragh's inner HTML with a
 string containing whatever text you want.
 ________________________________________________________________*/
 
-// Your code here 
+document.querySelector('.hidden-message__text').innerHTML = 'Ryan and Jake are missing from the picture.';
 
 
 
