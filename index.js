@@ -12,7 +12,11 @@ ________________________________________________________________*/
 
 // Your code here
 
+let opacityPic2 = document.querySelector("#box-two");
+let opacityPic9 = document.querySelector("#box-nine");
 
+opacityPic2.style.opacity = "100";
+opacityPic9.style.opacity = "100";
 
 
 
@@ -26,6 +30,8 @@ ________________________________________________________________*/
 
 // Your code here 
 
+let hiddenMessage = document.querySelector("#hidden-message");
 
+hiddenMessage.innerHTML = "This is a hidden message"
 
 
