@@ -12,8 +12,9 @@ ________________________________________________________________*/
 
 // Your code here
 
+let boxTw0 = document.querySelector('#box-two')
 
-
+boxTw0.style.opacity = 1; 
 
 
 /*________________________________________________________________
@@ -26,6 +27,7 @@ ________________________________________________________________*/
 
 // Your code here 
 
+let boxNine = document.querySelector('#box-nine')
 
-
+boxNine.style.opacity = 1;
 
