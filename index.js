@@ -31,6 +31,6 @@ ________________________________________________________________*/
 // Your code here 
 
 const hiddenMessage = document.querySelector('#hidden-message')
-hiddenMessage.innerHTML = 'I understand this better than last time lol'
+hiddenMessage.innerHTML = 'Glad to be doing this again. Good refresher with less anxiety.'
 
 
