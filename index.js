@@ -12,7 +12,8 @@ ________________________________________________________________*/
 
 // Your code here
 
-
+document.getElementById('box-two').style.opacity = 1
+document.getElementById('box-nine').style.opacity = 1
 
 
 
@@ -26,6 +27,7 @@ ________________________________________________________________*/
 
 // Your code here 
 
+document.getElementById('hidden-message').innerHTML = "Let's see if this works!"
 
 
 
