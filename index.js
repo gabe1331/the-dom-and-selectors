@@ -12,7 +12,11 @@ ________________________________________________________________*/
 
 // Your code here
 
+const boxTwoElement = document.querySelector('#box-two')
+boxTwoElement.style.opacity = 1;
 
+const boxNineElement = document.querySelector('#box-nine')
+boxNineElement.style.opacity = 1;
 
 
 
@@ -26,6 +30,7 @@ ________________________________________________________________*/
 
 // Your code here 
 
-
+const hiddenMessage = document.querySelector('#hidden-message')
+hiddenMessage.innerHTML = 'I understand this better than last time lol'
 
 
