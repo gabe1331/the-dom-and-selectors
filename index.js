@@ -9,11 +9,18 @@ boxes. They currently have the opacity set to 0.  Using a DOM
 selector and the style property, write pure JavaScript to reveal 
 who's behind the remaining boxes. 
 ________________________________________________________________*/
+// console.log(document.querySelectorAll(""));
 
-// Your code here
+// function myFunction() {
+//     document.querySelector("box-two").style.opacity = "1";
+//     document.querySelector("box-nine").style.opacity = "1";
+// }
 
+let boxTwo = document.querySelectorAll("box-two");
+let boxNine = document.querySelectorAll("box-nine");
 
-
+boxTwo.style.opacity = "1";
+boxNine.style.opacity = "1";
 
 
 /*________________________________________________________________
@@ -23,7 +30,9 @@ Lastly, we've added an ID of "hidden-message" to an empty paragrah
 element. Use JavaScript to inject the paragragh's inner HTML with a 
 string containing whatever text you want.
 ________________________________________________________________*/
-
+const hiddenMessage = document.querySelector("hidden-message");
+hiddenMessage.innerHTML = "<p>all your satellites belong to us</p>";
+hiddenMessage.style.color = "blue";
 // Your code here 
 
 
