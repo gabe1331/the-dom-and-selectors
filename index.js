@@ -16,6 +16,9 @@ let boxTw0 = document.querySelector('#box-two')
 
 boxTw0.style.opacity = 1; 
 
+let boxNine = document.querySelector('#box-nine')
+
+ boxNine.style.opacity = 1;
 
 /*________________________________________________________________
 Part 2.) The Hidden Message
@@ -27,7 +30,6 @@ ________________________________________________________________*/
 
 // Your code here 
 
-let boxNine = document.querySelector('#box-nine')
+const hiddenMessages = document.querySelector('#hidden-message')
 
-boxNine.style.opacity = 1;
-
+hiddenMessages.innerHTML = "<p> It's time to bring the thunder! </p>"
