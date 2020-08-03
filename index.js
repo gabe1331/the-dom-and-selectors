@@ -12,10 +12,11 @@ ________________________________________________________________*/
 
 // Your code here
 
+let boxTwo = document.getElementById("box-two");
+boxTwo.style.opacity = 1;
 
-
-
-
+let boxNine = document.getElementById("box-nine");
+boxNine.style.opacity = 1;
 /*________________________________________________________________
 Part 2.) The Hidden Message
 
@@ -24,8 +25,6 @@ element. Use JavaScript to inject the paragragh's inner HTML with a
 string containing whatever text you want.
 ________________________________________________________________*/
 
-// Your code here 
-
-
-
-
+// Your code here
+let hiddenMessage = document.querySelector("#hidden-message");
+hiddenMessage.innerText = "Is This correct?";
