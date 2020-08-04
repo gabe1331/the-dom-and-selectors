@@ -12,20 +12,24 @@ ________________________________________________________________*/
 
 // Your code here
 
+document.querySelector("box-two").style.opacity = "1";
+document.querySelector("box-nine").style.opacity = "1";
+
+
 
 
 
 
 /*________________________________________________________________
 Part 2.) The Hidden Message
-
+ 
 Lastly, we've added an ID of "hidden-message" to an empty paragrah 
-element. Use JavaScript to inject the paragragh's inner HTML with a 
+element. Use JavaScript to inject the paragragh's innerHTML with a 
 string containing whatever text you want.
 ________________________________________________________________*/
 
 // Your code here 
 
-
+document.querySelector("hidden-message").innerHTML = "this might be the answer";
 
 
