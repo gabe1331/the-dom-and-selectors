@@ -11,12 +11,9 @@ who's behind the remaining boxes.
 ________________________________________________________________*/
 
 // Your code here
-
-
-
-
-
-/*________________________________________________________________
+document.querySelector('#box-two').style.opacity = '1';
+document.querySelector('#box-nine').style.opacity = '1';
+/*_______________________________________________________________
 Part 2.) The Hidden Message
 
 Lastly, we've added an ID of "hidden-message" to an empty paragrah 
@@ -24,8 +21,5 @@ element. Use JavaScript to inject the paragragh's inner HTML with a
 string containing whatever text you want.
 ________________________________________________________________*/
 
-// Your code here 
-
-
-
-
+// Your code here
+document.querySelector('.hidden-message__text').innerHTML = 'Jake and Ryan are revealed in the remaining boxes.';
