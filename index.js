@@ -11,11 +11,11 @@ who's behind the remaining boxes.
 ________________________________________________________________*/
 
 // Your code here
+const box2 = document.querySelector("#box-two");
+box2.style.opacity = "1";
 
-
-
-
-
+const box9 = document.querySelector("#box-nine");
+box9.style.opacity = "1";
 /*________________________________________________________________
 Part 2.) The Hidden Message
 
@@ -24,8 +24,8 @@ element. Use JavaScript to inject the paragragh's inner HTML with a
 string containing whatever text you want.
 ________________________________________________________________*/
 
-// Your code here 
-
-
-
-
+// Your code here
+// document.querySelector("#hidden-message");
+const newText = (document.querySelector("#hidden-message").innerHTML =
+  "If this was done correctly, this should be a new string of whatever. I'm still trying to wrap my head around this stuff, but I remain hopeful!");
+console.log(newText);
