@@ -11,11 +11,11 @@ who's behind the remaining boxes.
 ________________________________________________________________*/
 
 // Your code here
-document.querySelector("#box-two");
-const box2 = (document.querySelector("#box-two").style.opacity = "1");
+const box2 = document.querySelector("#box-two");
+box2.style.opacity = "1";
 
-document.querySelector("#box-nine");
-const box9 = (document.querySelector("#box-nine").style.opacity = "1");
+const box9 = document.querySelector("#box-nine");
+box9.style.opacity = "1";
 /*________________________________________________________________
 Part 2.) The Hidden Message
 
@@ -25,6 +25,7 @@ string containing whatever text you want.
 ________________________________________________________________*/
 
 // Your code here
-document.querySelector("#hidden-message");
+// document.querySelector("#hidden-message");
 const newText = (document.querySelector("#hidden-message").innerHTML =
   "If this was done correctly, this should be a new string of whatever. I'm still trying to wrap my head around this stuff, but I remain hopeful!");
+console.log(newText);
