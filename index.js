@@ -1,7 +1,7 @@
 /* _______________________________________________________________
 Part 1.) It's the UX bunch! 
 
-To reveal who is behind boxes 2 and 3, we'll need  to use some 
+To reveal who is behind boxes 2 and 9, we'll need  to use some 
 DOM methods and change their opacity back to 1. 
 
 We've assigned ID's of "box-two" and "box-nine" to  the remaining 
@@ -12,9 +12,10 @@ ________________________________________________________________*/
 
 // Your code here
 
-
-
-
+let boxTwo = document.getElementById("box-two");
+let boxNine = document.getElementById("box-nine");
+boxTwo.style.opacity = 1;
+boxNine.style.opacity = 1;
 
 /*________________________________________________________________
 Part 2.) The Hidden Message
@@ -26,6 +27,7 @@ ________________________________________________________________*/
 
 // Your code here 
 
-
+let hiddenMessage = document.getElementById("hidden-message")
+hiddenMessage.innerHTML = "VENI VIDI VICI";
 
 
