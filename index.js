@@ -12,8 +12,11 @@ ________________________________________________________________*/
 
 // Your code here
 
-document.querySelector("box-two").style.opacity = "1";
-document.querySelector("box-nine").style.opacity = "1";
+document.querySelector("#box-two").style.opacity = 1;
+
+
+document.querySelector("#box-nine").style.opacity = 1;
+
 
 
 
@@ -30,6 +33,6 @@ ________________________________________________________________*/
 
 // Your code here 
 
-document.querySelector("hidden-message").innerHTML = "this might be the answer";
+document.querySelector("#hidden-message").innerHTML = "this might be the answer";
 
 
